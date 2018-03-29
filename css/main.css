@@ -156,3 +156,21 @@ a {
 	height: 95%;
 }
 }
+
+/**/
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.site-title {
+	line-height: 100%;
+}
+@media only screen and (max-width: 470px)
+ {
+.site-title {
+	font-size: 40px;
+}
+}
