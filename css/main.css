@@ -1,0 +1,158 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+	font-size: 20px;
+	line-height: 150%;
+}
+.site-title {
+	font-size: 70px;
+	margin-left: 10px;
+	margin-top:25px;
+	color: #f56107;
+}
+.tk-azo-sans-uber {
+	font-weight: normal;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	max-width:960px;
+}
+.listen-flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.sections {
+	margin: 45px 0;
+}
+.album-cover {
+	max-width: 80%;
+	margin-bottom: 20px;
+}
+.album-section {
+	text-align: center;
+}
+.listen-list-wrap {
+	margin-top: 20px;
+}
+.listen-header {
+	display: inline-block;
+	position: relative;
+	bottom: 6px;
+	color: #f56107;
+}
+.listen-here-logos {
+	display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.listen-here-logos li {
+display: inline;
+}
+.listen-here-logos li a {
+	font-size: 39px;
+	margin: 0 10px;
+color: #330f55;
+opacity: 1;
+transition: opacity 0.3s;
+}
+.listen-here-logos li a:hover {
+	opacity: 0.8;
+}
+.download-button {
+	border: 5px solid #330f55;
+	padding: 10px;
+	font-size: 25px;
+	display: inline-block;
+	margin-top: 20px;
+	color:#f56107;
+	background: white;
+    -webkit-transition: color 0.3s, background 0.3s, border-color 0.3s;
+    transition: color 0.3s, background 0.3s, border-color 0.3s;
+}
+.download-button:hover {
+ background:#f56107;
+ color: #330f55;
+ border-color: #f56107;
+}
+hr {
+	width: 50%;
+	background-color: #333;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+        max-width: 768px;
+        margin: 0 auto;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.about-photo-section {
+	display: flex;
+	align-items: center;
+}
+.about-photo-section img {
+	width: 50%;
+	height: 50%;
+	margin-right: 10px;
+}
+.bio {
+	margin-left: 10px;
+}
+.social {
+	color: #f56107;
+}
+.social a {
+margin: 0 5px;
+}
+.social a:hover, .email a:hover, .made-by a:hover {
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+		color: #330f55;
+}
+.made-by {
+	color: #333;
+}
+.email, .social, .made-by {
+	font-size: 70%;
+	margin: 25px 0;
+}
+/*responsive styling*/
+ @media only screen and (max-width: 690px)
+ {
+ 	.album-cover {
+	max-width: 100%;
+}
+.about-photo-section {
+	flex-direction: column;
+}
+.listen-flex {
+	flex-direction: column-reverse;
+}
+.bio {
+	margin-top:20px;
+}
+.about-photo-section img {
+	width: 80%;
+	height: 80%;
+	margin:0;
+}
+}
+ @media only screen and (max-width: 405px)
+ {
+.about-photo-section img {
+	width: 95%;
+	height: 95%;
+}
+}
